@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Datetime for backup timestamp (NA)
-export DT=$(date "+%Y%m%d-%H%M%S")
+export DT=$(date "+%d%m%Y-%H%M%S")
 # A project name to identify your minecraft server
 export MINECRAFT_PROJECT_NAME=minecraft-117
 # Tmux terminal name that is running the minecraft server
-export SCREEN_TERM_NAME=minecraft
+export TERM_NAME=minecraft
 # Path to location of the server
-export SERVER_PATH=/home/ubuntu/games/minecraft/
+export SERVER_PATH=/home/$USER/games/minecraft/
 # Folder to backup in the minecraft server 
 export SERVER_FOLDER=world
 # Remote backup location 

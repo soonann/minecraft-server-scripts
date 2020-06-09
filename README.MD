@@ -4,3 +4,4 @@
 
 ### Usage
 > Copy the crontab-script into /etc/crontab
+> use the command chmod 755 backup-server.sh to make the script executable
